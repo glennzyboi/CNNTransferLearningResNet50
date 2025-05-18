@@ -1,4 +1,4 @@
-# Facial Expression Recognition Through Transfer Learning: A Deep Learning Approach Using ResNet50
+![image](https://github.com/user-attachments/assets/4961df36-0cb8-456c-a5ab-b58ae63007fb)# Facial Expression Recognition Through Transfer Learning: A Deep Learning Approach Using ResNet50
 
 ## Abstract
 Our project tackles the task of emotion recognition from facial expressions using transfer learning with ResNet50. We implemented a CNN-based solution that classifies facial expressions into six emotional states: angry, fear, happy, neutral, sad, and surprise. We utilized the pre-trained ResNet50 architecture, fine-tuning it with a custom dataset to achieve optimal performance in emotion detection. Our approach incorporates progressive layer unfreezing, mixed-precision training, and data augmentation techniques. The model achieved significant improvements over the baseline, demonstrating the effectiveness of transfer learning in real-world computer vision applications.
@@ -90,13 +90,13 @@ We chose ResNet50 as our base model for several reasons:
    - Successful adaptation to emotion recognition task
    - Practical applicability demonstrated
   
-![image](https://github.com/user-attachments/assets/dd21d69a-b649-410a-ad6a-67c0433c2727)
+![image](https://github.com/user-attachments/assets/050a4062-7bc1-40f5-b17a-95dee42a6783)
 
-![image](https://github.com/user-attachments/assets/acaba5aa-b179-45b9-8330-100fc62d74bf)
+![image](https://github.com/user-attachments/assets/c0a712d4-6a8f-4517-b466-5db0180118c2)
 
-![image](https://github.com/user-attachments/assets/c5528c7f-3f8b-4a74-a984-867a7d1579b6)
+![image](https://github.com/user-attachments/assets/5a853483-0eec-4c07-8472-09d1f7cbd51c)
 
-![image](https://github.com/user-attachments/assets/abb33567-7c17-49bc-9491-d4915365c027)
+![image](https://github.com/user-attachments/assets/eeb83cdd-441d-4ef8-9001-575fda5bd2d7)
 
 Classification Report:
               precision    recall  f1-score   support
@@ -115,7 +115,11 @@ weighted avg     0.6240    0.6148    0.6084      6339
 Overall Accuracy: 0.6148
 Validation Accuracy: 0.6148
 
-![image](https://github.com/user-attachments/assets/11f1386a-2bce-47bf-80c9-1fb58acb896f)
+![image](https://github.com/user-attachments/assets/40eaa1b5-c122-4ac1-82f3-885acdb0a7cd)
+
+Comparison w/ Base model
+
+![image](https://github.com/user-attachments/assets/c39155dd-24a5-4bba-96c6-bb56badcf60c)
 
 
 ### Future Improvements
