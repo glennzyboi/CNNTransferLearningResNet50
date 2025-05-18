@@ -127,8 +127,8 @@ Validation Accuracy: 0.6148
 - Jhon Glenn L. Fabul
 - Sid Digamon
 - James Manon-og
-- Emannuel Aguado
-- Cedric Sarillo
+- Emmannuel Aguado
+- Adolfo Cedric Sarillo
 
 ## Repository Structure
 ```
