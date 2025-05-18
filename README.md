@@ -1,7 +1,6 @@
 # Emotion Recognition using Transfer Learning with ResNet50
 
-## Title
-Facial Expression Recognition Through Transfer Learning: A Deep Learning Approach Using ResNet50
+## Facial Expression Recognition Through Transfer Learning: A Deep Learning Approach Using ResNet50
 
 ## Abstract
 Our project tackles the task of emotion recognition from facial expressions using transfer learning with ResNet50. We implemented a CNN-based solution that classifies facial expressions into six emotional states: angry, fear, happy, neutral, sad, and surprise. We utilized the pre-trained ResNet50 architecture, fine-tuning it with a custom dataset to achieve optimal performance in emotion detection. Our approach incorporates progressive layer unfreezing, mixed-precision training, and data augmentation techniques. The model achieved significant improvements over the baseline, demonstrating the effectiveness of transfer learning in real-world computer vision applications.
@@ -92,6 +91,36 @@ We chose ResNet50 as our base model for several reasons:
    - Significant improvement over baseline ResNet50
    - Successful adaptation to emotion recognition task
    - Practical applicability demonstrated
+  
+![image](https://github.com/user-attachments/assets/dd21d69a-b649-410a-ad6a-67c0433c2727)
+
+![image](https://github.com/user-attachments/assets/acaba5aa-b179-45b9-8330-100fc62d74bf)
+
+![image](https://github.com/user-attachments/assets/c5528c7f-3f8b-4a74-a984-867a7d1579b6)
+
+![image](https://github.com/user-attachments/assets/abb33567-7c17-49bc-9491-d4915365c027)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       angry     0.5118    0.6323    0.5657       960
+        fear     0.5770    0.2760    0.3734      1018
+       happy     0.8615    0.7874    0.8228      1209
+     neutral     0.5770    0.6472    0.6101      1216
+         sad     0.4868    0.5812    0.5298      1139
+    surprise     0.7264    0.7629    0.7442       797
+
+    accuracy                         0.6148      6339
+   macro avg     0.6234    0.6145    0.6077      6339
+weighted avg     0.6240    0.6148    0.6084      6339
+
+Overall Accuracy: 0.6148
+Validation Accuracy: 0.6148
+
+![image](https://github.com/user-attachments/assets/11f1386a-2bce-47bf-80c9-1fb58acb896f)
+
+![image](https://github.com/user-attachments/assets/5e5b3bba-ff42-4f7b-9cb9-fa1d42c56b71)
+
 
 ### Future Improvements
 - Experiment with other architectures (EfficientNet, Vision Transformer)
