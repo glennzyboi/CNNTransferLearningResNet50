@@ -117,8 +117,6 @@ Validation Accuracy: 0.6148
 
 ![image](https://github.com/user-attachments/assets/11f1386a-2bce-47bf-80c9-1fb58acb896f)
 
-![image](https://github.com/user-attachments/assets/5e5b3bba-ff42-4f7b-9cb9-fa1d42c56b71)
-
 
 ### Future Improvements
 - Experiment with other architectures (EfficientNet, Vision Transformer)
