@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/4961df36-0cb8-456c-a5ab-b58ae63007fb)# Facial Expression Recognition Through Transfer Learning: A Deep Learning Approach Using ResNet50
+# Facial Expression Recognition Through Transfer Learning: A Deep Learning Approach Using ResNet50
 
 ## Abstract
 Our project tackles the task of emotion recognition from facial expressions using transfer learning with ResNet50. We implemented a CNN-based solution that classifies facial expressions into six emotional states: angry, fear, happy, neutral, sad, and surprise. We utilized the pre-trained ResNet50 architecture, fine-tuning it with a custom dataset to achieve optimal performance in emotion detection. Our approach incorporates progressive layer unfreezing, mixed-precision training, and data augmentation techniques. The model achieved significant improvements over the baseline, demonstrating the effectiveness of transfer learning in real-world computer vision applications.
